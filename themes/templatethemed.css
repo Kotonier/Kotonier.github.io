@@ -1390,12 +1390,10 @@ background-color: transparent;
 /*position video hype squad */
 
 .videoWrapper-3YdgHH {
-	background-position: middle;
 	background-repeat: no-repeat;
 	width: 660px;
-	height: 370px;
-	position: relative;
-	left: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
