@@ -1397,3 +1397,9 @@ background-color: transparent;
 	position: relative;
 	left: 450px;
 }
+
+
+/* Pop up ajouter ami via chat */
+.notFriends-SkjxV-{
+	background-color: var(--backgroundColor)!important;
+}
