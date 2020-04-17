@@ -1403,3 +1403,12 @@ background-color: transparent;
 .notFriends-SkjxV-{
 	background-color: var(--backgroundColor)!important;
 }
+
+/*PopUp mention */
+.channelHeader-3Gd2xq{
+	background-color: var(--backgroundColor);
+}
+
+.messageContainer-gbhlwo{
+	background-color: var(--backgroundColor);
+}
