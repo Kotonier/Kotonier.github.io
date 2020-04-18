@@ -1410,3 +1410,49 @@ background-color: transparent;
 .messageContainer-gbhlwo{
 	background-color: var(--backgroundColor);
 }
+
+/* activité de jeu*/
+
+.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s
+{background:var(--warning);}
+
+
+.appMount-3lHmkl {
+	background-color: var(--backgroundColor);
+	
+}
+
+
+
+
+/*server boost */
+.scroller-2FKFPG
+{background:transparent!important;}
+
+.ctaBar-2UsjF2
+{background-color: var(--backgroundColor);}
+
+
+.tierWrapper-W9ajqp
+.tierBody-16Chc9
+{background-color: var(--backgroundColor);}
+
+
+.perks-3OsGy8
+.perk-2WeBWW
+{background-color: var(--backgroundColor);}
+
+
+/* == PARAMETRE SERVEUR == */
+/*integration serveur*/
+.integrationBody-2Jf_HZ
+{background-color: var(--backgroundColor);}
+
+/* modele de serveur*/
+.descriptionBox-1EKQKL
+{background-color: var(--backgroundColor);}
+
+/*etat boost serveur*/
+.tier-3H4BXk 
+.tierBody-x9kBBp
+{background-color: var(--backgroundColor);}
