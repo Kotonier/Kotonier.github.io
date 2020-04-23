@@ -1459,3 +1459,8 @@ background-color: transparent;
 .tier-3H4BXk 
 .tierBody-x9kBBp
 {background-color: var(--backgroundColor);}
+
+/* scroller serveur side*/
+.scrollerWrap-1IAIlv {
+	width: 70px!important;
+}
