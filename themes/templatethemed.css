@@ -1462,3 +1462,12 @@ background-color: transparent;
 .scrollerWrap-1IAIlv {
 	width: 70px!important;
 }
+
+/*PRIVATE MESSAGE + */
+.container-2ax-kl {
+  position: relative;
+  width: 100%;
+}
+.privateChannelRecipientsInviteButtonIcon-3A3uTc {
+  float: right;
+}
