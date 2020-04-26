@@ -1430,6 +1430,9 @@ background-color: transparent;
 
 /*server boost */
 
+
+.perksModalContentWrapper-2HU6uL
+{background-color: var(--backgroundColor) !important;}
 .ctaBar-2UsjF2
 {background-color: var(--backgroundColor);}
 
