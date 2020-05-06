@@ -1570,3 +1570,23 @@ background-color: transparent;
   background-color: var(--backgroundColor);
   border: 1px solid var(--uiGradient1);
   box-shadow: 0 0 10px 0 var(--uiGradient1);
+
+	.contentWrapper-2txmjs, .inspector-sdLnLS, .wrapper-2N7X54, .categoryWrapper-UZ5YNj {
+	background-color: var(--backgroundColor);
+	}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz, .navButtonActive-3RPAJy {
+	background-color: var(--uiGradient2);
+	}
+.guildIcon-3h-1IH{
+	background-color: transparent;
+	}
+.diversitySelectorPopout-3FiGaM {
+	background-color: var(--background-color); 
+	border-color: var(--background-color);
+	}
+.diversityEmojiItem-L6_IXw:hover, .guildIcon-3h-1IH:hover {
+	background-color: var(--uiGradient2);
+	}
+.theme-dark .sadImage-2ph8SI{
+	display: none;
+}
