@@ -714,31 +714,7 @@ background-color: transparent;
 {
 background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2));
 }
-/* == emojis == */
-.popout-2iWAc- {
-  box-shadow: 0 0 10px 5px rgba(0,0,0,.25)!important;
-}
-.bda-dark .emojiPicker-3m1S-j,
-.bda-dark .emojiPicker-3m1S-j .category-2U57w6,
-.bda-dark #bda-qem button.active,
-.bda-dark #bda-qem-favourite-container,
-.bda-dark #bda-qem-twitch-container,
-.bda-dark #bda-qem {
-  background: var(--backgroundColor)!important;
-  border: none !important;
-}
-.bda-dark #bda-qem button:hover,
-.bda-dark #bda-qem button {
-  background-color: rgba(0,0,0,.5);
-  border: none !important;
-}
-.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
-  background-color: var(--backgroundColor);
-  border: 1px solid var(--uiGradient1);
-  box-shadow: 0 0 10px 0 var(--uiGradient1);
-}
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {border-bottom-color: var(--uiGradient1);}
-.bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {background-color: transparent!important}
+
 /* == searchbars / inputs == */
 .inner-zqa7da,
 .libraryFilter-31ZUa2,
@@ -1582,3 +1558,7 @@ background-color: transparent;
 	height:393px;
 	margin-top:31px;
 	}
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
+  background-color: var(--backgroundColor);
+  border: 1px solid var(--uiGradient1);
+  box-shadow: 0 0 10px 0 var(--uiGradient1);
