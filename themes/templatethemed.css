@@ -1473,7 +1473,15 @@ background-color: transparent;
 .privateChannelRecipientsInviteButtonIcon-3A3uTc {
   float: right;
 }
-
+/* Reactions rapide */
+.button-1I8KM5, .button-1I8KM5:hover {
+	background-color: var(--backgroundColor);
+	}
+	
+	/*Settings-->subscription */
+.billingInformation-1MZXzx,.detailsBlock-FoDTGA:last-child{
+	background-color: var(--backgroundColor);
+	}
 
 /*EMOJI PICKER*/
 	
