@@ -113,7 +113,7 @@
   ::-webkit-scrollbar {border: none !important;width: 6px !important;}
   ::-webkit-scrollbar-track {background: transparent;border: none !important;}
   ::-webkit-scrollbar-track-piece {background: transparent !important;border: none !important;}
-  ::-webkit-scrollbar-thumb {background: rgba(0,0,0,.5)!important;border-radius: 20px !important;border: none !important;}
+   ::-webkit-scrollbar-thumb {background: -webkit-linear-gradient(-30deg, var(--uiGradient1), var(--uiGradient2))!important;border-radius: 20px !important;border: none !important;}
   /* plugin updates notice */
   #pluginNotice {
     position: absolute;
