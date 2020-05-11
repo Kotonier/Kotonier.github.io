@@ -1,199 +1,174 @@
-[role="img"][aria-label]:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 0 2px #666;
-    border-radius: 50%;
-    z-index: 20;
-    border: none !important
-}
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
-.avatarOffline-3GF27z {filter: grayscale(100%);}
 
-[role="img"][aria-label] foreignObject {mask: none;}
-[role="img"][aria-label] foreignObject img {border-radius: 50%;}
-[role="img"][aria-label] svg rect {display: none;}
 
-[role="img"][aria-label*="Online"]:before,
-[role="img"][aria-label*="Conectado"]:before,
-[role="img"][aria-label*="En ligne"]:before,
-[role="img"][aria-label*="Na mreži"]:before,
-[role="img"][aria-label*="Prisijungęs"]:before,
-[role="img"][aria-label*="Elérhető"]:before,
-[role="img"][aria-label*="Pålogget"]:before,
-[role="img"][aria-label*="Dostępny"]:before,
-[role="img"][aria-label*="Disponível"]:before,
-[role="img"][aria-label*="Paikalla"]:before,
-[role="img"][aria-label*="Trực tuyến"]:before,
-[role="img"][aria-label*="Çevrimiçi"]:before,
-[role="img"][aria-label*="Συνδεδεμένος"]:before,
-[role="img"][aria-label*="На линия"]:before,
-[role="img"][aria-label*="В сети"]:before,
-[role="img"][aria-label*="В мережі"]:before,
-[role="img"][aria-label*="ออนไลน์"]:before,
-[role="img"][aria-label*="在线"]:before,
-[role="img"][aria-label*="オンライン"]:before,
-[role="img"][aria-label*="線上"]:before,
-[role="img"][aria-label*="온라인"]:before {
-  box-shadow: 0 0 0 2px #43b581;
-}
-[role="img"][aria-label*="Do Not Disturb"]:before,
-[role="img"][aria-label*="Vil ikke forstyrres"]:before,
-[role="img"][aria-label*="Bitte nicht stören"]:before,
-[role="img"][aria-label*="No molestar"]:before,
-[role="img"][aria-label*="Ne pas déranger"]:before,
-[role="img"][aria-label*="Ne uznemiravaj"]:before,
-[role="img"][aria-label*="Non disturbare"]:before,
-[role="img"][aria-label*="Netrukdyti"]:before,
-[role="img"][aria-label*="Niet storen"]:before,
-[role="img"][aria-label*="Ikke forstyrr"]:before,
-[role="img"][aria-label*="Nie przeszkadzać"]:before,
-[role="img"][aria-label*="Elfoglalt"]:before,
-[role="img"][aria-label*="Não perturbar"]:before,
-[role="img"][aria-label*="Nu deranja"]:before,
-[role="img"][aria-label*="Älä häiritse"]:before,
-[role="img"][aria-label*="Stör ej"]:before,
-[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
-[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
-[role="img"][aria-label*="Nerušit"]:before,
-[role="img"][aria-label*="Μην ενοχλείτε"]:before,
-[role="img"][aria-label*="Не ме безпокой"]:before,
-[role="img"][aria-label*="Не беспокоить"]:before,
-[role="img"][aria-label*="Не турбувати"]:before,
-[role="img"][aria-label*="ห้ามรบกวน"]:before,
-[role="img"][aria-label*="请勿打扰"]:before,
-[role="img"][aria-label*="取り込み中"]:before,
-[role="img"][aria-label*="請勿打擾"]:before,
-[role="img"][aria-label*="다른 용무 중"]:before {
-  box-shadow: 0 0 0 2px #f04747;
-}
-[role="img"][aria-label*="Idle"]:before,
-[role="img"][aria-label*="Inaktiv"]:before,
-[role="img"][aria-label*="Abwesend"]:before,
-[role="img"][aria-label*="Ausente"]:before,
-[role="img"][aria-label*="Inactif"]:before,
-[role="img"][aria-label*="U mirovanju"]:before,
-[role="img"][aria-label*="Inattivo"]:before,
-[role="img"][aria-label*="Pasitraukęs"]:before,
-[role="img"][aria-label*="Tétlen"]:before,
-[role="img"][aria-label*="Inactief"]:before,
-[role="img"][aria-label*="Zaraz wracam"]:before,
-[role="img"][aria-label*="Inactiv"]:before,
-[role="img"][aria-label*="Toimeton"]:before,
-[role="img"][aria-label*="Chờ"]:before,
-[role="img"][aria-label*="Boşta"]:before,
-[role="img"][aria-label*="Nečinný"]:before,
-[role="img"][aria-label*="Αδρανής"]:before,
-[role="img"][aria-label*="Не се използва"]:before,
-[role="img"][aria-label*="Не активен"]:before,
-[role="img"][aria-label*="Відійшов"]:before,
-[role="img"][aria-label*="ไม่อยู่"]:before,
-[role="img"][aria-label*="闲置"]:before,
-[role="img"][aria-label*="退席中"]:before,
-[role="img"][aria-label*="閒置"]:before,
-[role="img"][aria-label*="자리비움"]:before {
-  box-shadow: 0 0 0 2px #faa61a;
-}
-[role="img"][aria-label*="Streaming"]:before,
-[role="img"][aria-label*="Streamer"]:before,
-[role="img"][aria-label*="Transmitiendo"]:before,
-[role="img"][aria-label*="En direct"]:before,
-[role="img"][aria-label*="In diretta"]:before,
-[role="img"][aria-label*="Transliuojama"]:before,
-[role="img"][aria-label*="Közvetítés"]:before,
-[role="img"][aria-label*="Streamt"]:before,
-[role="img"][aria-label*="Strømmer"]:before,
-[role="img"][aria-label*="Streamowanie"]:before,
-[role="img"][aria-label*="Transmitindo"]:before,
-[role="img"][aria-label*="Transmite live"]:before,
-[role="img"][aria-label*="Striimaa"]:before,
-[role="img"][aria-label*="Streamar"]:before,
-[role="img"][aria-label*="Đang stream"]:before,
-[role="img"][aria-label*="Yayın Yapıyor"]:before,
-[role="img"][aria-label*="Streamuje"]:before,
-[role="img"][aria-label*="Ζωντανά"]:before,
-[role="img"][aria-label*="Стрийминг"]:before,
-[role="img"][aria-label*="Стримит"]:before,
-[role="img"][aria-label*="Трансляція"]:before,
-[role="img"][aria-label*="ถ่ายทอดสด"]:before,
-[role="img"][aria-label*="正在直播"]:before,
-[role="img"][aria-label*="配信"]:before,
-[role="img"][aria-label*="直播中"]:before,
-[role="img"][aria-label*="配信"]:before {
-  box-shadow: 0 0 0 2px #6441a5;
-}
-[role="img"][aria-label*="Offline"]:before,
-[role="img"][aria-label*="Hors ligne"]:before,
-[role="img"][aria-label*="Nem elérhető"]:before,
-[role="img"][aria-label*="Neprisijungęs"]:before,
-[role="img"][aria-label*="Niedostępny"]:before,
-[role="img"][aria-label*="Izvan mreže"]:before,
-[role="img"][aria-label*="오프라인"]:before,
-[role="img"][aria-label*="離線"]:before,
-[role="img"][aria-label*="オフライン"]:before,
-[role="img"][aria-label*="离线"]:before,
-[role="img"][aria-label*="ออฟไลน์"]:before,
-[role="img"][aria-label*="Не в мережі"]:before,
-[role="img"][aria-label*="Не в сети"]:before,
-[role="img"][aria-label*="Извън линия"]:before,
-[role="img"][aria-label*="Αποσυνδεδεμένος"]:before,
-[role="img"][aria-label*="Çevrimdışı"]:before,
-[role="img"][aria-label*="Ngoại tuyến"]:before,
-[role="img"][aria-label*="Ei paikalla"]:before,
-[role="img"][aria-label*="Frakoblet"]:before,
-[role="img"][aria-label*="Desconectado"]:before,
-.avatarOffline-3GF27z {
-  box-shadow: 0 0 0 2px #747f8d;
-}
-[role="img"][aria-label*="Invisible"]:before,
-[role="img"][aria-label*="Usynlig"]:before,
-[role="img"][aria-label*="Unsichtbar"]:before,
-[role="img"][aria-label*="Nevidljiv/a"]:before,
-[role="img"][aria-label*="Nematomas"]:before,
-[role="img"][aria-label*="Izvan mreže"]:before,
-[role="img"][aria-label*="Nevidljiv/a"]:before,
-[role="img"][aria-label*="Nematomas"]:before,
-[role="img"][aria-label*="Láthatatlan"]:before,
-[role="img"][aria-label*="Onzichtbaar"]:before,
-[role="img"][aria-label*="Usynlig"]:before,
-[role="img"][aria-label*="Niewidoczny"]:before,
-[role="img"][aria-label*="Invisível"]:before,
-[role="img"][aria-label*="Invizibil"]:before,
-[role="img"][aria-label*="Näkymätön"]:before,
-[role="img"][aria-label*="Osynlig"]:before,
-[role="img"][aria-label*="Vô hình"]:before,
-[role="img"][aria-label*="Görünmez"]:before,
-[role="img"][aria-label*="Neviditelný"]:before,
-[role="img"][aria-label*="Αόρατος"]:before,
-[role="img"][aria-label*="Невидим"]:before,
-[role="img"][aria-label*="Невидимый"]:before,
-[role="img"][aria-label*="Невидимий"]:before,
-[role="img"][aria-label*="ไม่ระบุ"]:before,
-[role="img"][aria-label*="隐身"]:before,
-[role="img"][aria-label*="オンライン状態を隠す"]:before,
-[role="img"][aria-label*="隱形"]:before,
-[role="img"][aria-label*="오프라인 표시"]:before {
-  box-shadow: 0 0 0 2px #747f8d;
-}
-.cursorDefault-dsQJ1n,
-.dots-3Bkt3k {
-    overflow:visible;
+
+:root {
+  --rs-small-spacing: 2px;  /* spacing between avatar and status */
+  --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
+  --rs-width: 2px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --rs-online-color: #43b581;  /* color for online status */
+  --rs-idle-color: #faa61a;  /* color for idle status */
+  --rs-dnd-color: #f04747;  /* color for dnd status */
+  --rs-offline-color: #636b75;  /* color for offline status */
+  --rs-streaming-color: #643da7;  /* color for streaming status */
+  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
 }
 
-.dots-3Bkt3k [cx="2.5"] {
-    cy:-8;
-    cx: -8.5;
+
+#app-mount .wrapper-3t9DeA svg:not(:root) {
+  overflow: visible;
+}
+#app-mount .wrapper-3t9DeA foreignObject {
+  mask: none;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+  cy: -8 !important;
+  cx: -8.5 !important;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+  cy: -8 !important;
+  cx: -2.25 !important;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+  cy: -8 !important;
+  cx: 4 !important;
+}
+#app-mount .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
+  x: 0;
+  y: 0;
+}
+#app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
+  x: -49;
+  y: -53;
+}
+#app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+  fill: rgba(0, 0, 0, 0.5) !important;
+  width: 30px;
+  height: 30px;
+  x: 1;
+  y: 1;
+}
+#app-mount .wrapper-3t9DeA img {
+  border-radius: var(--rs-avatar-shape);
+  clip-path: inset(calc(var(--rs-small-spacing) + 1px) calc(var(--rs-small-spacing) + 1px) round var(--rs-avatar-shape));
+}
+#app-mount .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
+  rx: calc(var(--rs-avatar-shape) * 2) !important;
+  ry: calc(var(--rs-avatar-shape) * 2) !important;
+}
+#app-mount .wrapper-3t9DeA rect {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  mask: none;
+  display: block !important;
+  rx: var(--rs-avatar-shape) !important;
+  ry: var(--rs-avatar-shape) !important;
+  fill: transparent !important;
+  stroke-width: var(--rs-width);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=online] {
+  stroke: var(--rs-online-color);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=idle] {
+  stroke: var(--rs-idle-color);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=dnd] {
+  stroke: var(--rs-dnd-color);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*=streaming] {
+  stroke: var(--rs-streaming-color);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*=offline], #app-mount .wrapper-3t9DeA rect[fill=NaN] {
+  stroke: var(--rs-offline-color);
+}
+#app-mount .wrapper-3t9DeA rect[mask*=invisible], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
+  stroke: var(--rs-invisible-color);
+}
+#app-mount .wrapper-3t9DeA rect[x="16"] {
+  width: 24px;
+  height: 24px;
+}
+#app-mount .wrapper-3t9DeA rect[x="28"] {
+  width: 40px;
+  height: 40px;
+  overflow: visible;
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] {
+  position: relative;
+  margin-right: 0 !important;
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] rect {
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] img {
+  clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"][style*="width:80px;"]:after {
+  left: unset;
+  right: -2px;
+  top: unset;
+  bottom: -2px;
+  transform: none;
+}
+#app-mount .wrapper-3t9DeA[style*="width: 32px;"] rect {
+  width: 32px;
+  height: 32px;
+  x: -14.5;
+  y: -17;
+  position: relative;
+  z-index: 0;
+}
+#app-mount .avatarHint-1qgaV3 foreignObject {
+  mask: none;
+}
+#app-mount .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
+  border-radius: var(--rs-avatar-shape) !important;
+  padding-top: 0;
+  width: calc(100% - var(--rs-width) * 4);
+  height: calc(100% - var(--rs-width) * 4);
+  margin-top: calc(var(--rs-width) + 2px);
+  margin-left: calc(var(--rs-width) + 2px);
+}
+#app-mount .message-1PNnaP .mask-1l8v16 img {
+  clip-path: circle(calc(19px - var(--rs-small-spacing)));
+}
+#app-mount .memberOffline-2lN7gt img {
+  clip-path: none !important;
+}
+#app-mount .header-QKLPzZ .wrapper-3t9DeA {
+  margin-right: 20px !important;
+}
+#app-mount .offline-3nJYBR img {
+  clip-path: none !important;
 }
 
-.dots-3Bkt3k [cx="8.75"] {
-    cy:-8;
-    cx: -2.25;
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile] {
+  width: calc(100% + 4px);
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="32"] img {
+  width: 32px;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="80"] img {
+  width: 80px;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/8px no-repeat;
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background: var(--rs-online-color);
+  z-index: 1;
 }
 
-.dots-3Bkt3k [cx="15"] {
-    cy:-8;
-    cx: 4;
+#app-mount .wrapper-3t9DeA:before {
+  content: none !important;
 }
