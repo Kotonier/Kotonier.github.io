@@ -20,7 +20,7 @@
     -webkit-mask: radial-gradient(#000 40%, transparent);
     z-index: 0;
     opacity: var(--backgroundImageOpacity);
-	
+	filter:var(--BlurBackground);
 	
   }
   .app-19_DXt {z-index: 200;}
@@ -110,10 +110,10 @@
   .attachButtonDivider-3Glu60,
   .side-8zPYf6 .separator-gCa7yv {display: none!important;}
   /* scrollbar */
-  ::-webkit-scrollbar {border: none !important;width: 6px !important;}
+  ::-webkit-scrollbar {border: none !important;width: 4px !important;}
   ::-webkit-scrollbar-track {background: transparent;border: none !important;}
   ::-webkit-scrollbar-track-piece {background: transparent !important;border: none !important;}
-   ::-webkit-scrollbar-thumb {background: -webkit-linear-gradient(-30deg, var(--uiGradient1), var(--uiGradient2))!important;border-radius: 20px !important;border: none !important;}
+  ::-webkit-scrollbar-thumb {background: -webkit-linear-gradient(-30deg, var(--uiGradient1), var(--uiGradient2))!important;border-radius: 20px !important;border: none !important;}
   /* plugin updates notice */
   #pluginNotice {
     position: absolute;
@@ -487,6 +487,10 @@ svg[name="Nova_Discord"] {display: none!important;}
   background-color: rgba(150,150,150,.1);
 }
 /* == Member list == */
+
+.members-1998pB, .members-1998pB > div{
+background:transparent;}
+
 .layout-2DM8Md {
   transition: padding .2s ease;
   position: relative;
@@ -1399,7 +1403,6 @@ background-color: transparent;
 }
 
 
-
 /*server boost */
 
 
@@ -1436,7 +1439,7 @@ background-color: transparent;
 
 /* scroller serveur side*/
 .scrollerWrap-1IAIlv {
-	width: 70px!important;
+	width: 72px!important;
 	}
 	
 
@@ -1496,7 +1499,7 @@ background-color: transparent;
 	background-color: var(--uiGradient2);
 	}
 .guildIcon-3h-1IH{
-	background-color: transparent;
+	background-color: var(--backgroundColor);
 	}
 .diversitySelectorPopout-3FiGaM {
 	background-color: var(--backgroundColor); 
@@ -1514,7 +1517,35 @@ background-color: transparent;
 	border: 0.5px solid var(--uiGradient1);
 	box-shadow: 0 0 10px 0 var(--uiGradient1);
 }
+
 .emojiPicker-3PwZFl{
 	background-color: var(--backgroundColor); 
 	border-color: var(--backgroundColor);
 	}
+
+/* Emoji Picker Nitro will Expire soon */
+/*.premiumRetentionNotice-1MsjHe{background-color: var(--background-color);}*/
+
+
+/* New Context Menus May 2020 */
+.button-F9qN4n.focused-3ZzkKr {box-shadow: 0 0 0 2px var(--uiGradient2);}
+.button-F9qN4n, .styleFlexible-wGDiIL, .submenu-2-ysNh, .styleFixed-sX-yHV {background-color: var(--backgroundColor);}
+.button-F9qN4n:hover, .button-F9qN4n.focused-3ZzkKr, .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iH010) {background-color: var(--uiGradient2);
+}
+
+/* Search Module May 2020 */
+.searchResultsWrap-3-pOjs, .channelName-wvgELL, .jumpButton-1ol35X {background-color: transparent;}
+.searchResult-2N9RV4:after, .searchResult-2N9RV4:before{background-image: none;}
+.searchResultMessage-30QnSN.hit-1CXhXT{background-color: var(--backgroundColor); border-color: var(--backgroundColor); box-shadow:none;
+}
+
+	/* View Reactions */
+.theme-dark .sidebar-1-SQro, .theme-dark .reactors-Blmlhw{background-color: var(--backgroundColor);}
+.theme-dark .reactionSelected-1pqISm{background-color: rgba(0,0,0,0.5);}
+.theme-dark .reactionDefault-GBA58K:hover{background-color: rgba(0,0,0,0.8);
+}
+
+
+/*correction role 01/07/2020 */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
+background:transparent;}
