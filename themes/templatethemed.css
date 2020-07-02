@@ -1519,8 +1519,14 @@ background-color: transparent;
 }
 
 	
- .header-ywPcAE, 
- .categoryList-2Kzf65,
+ .header-ywPcAE{
+	background-color: var(--backgroundColor); 
+	border-color: var(--backgroundColor);
+	}
+ .categoryList-2Kzf65{
+	background-color: var(--backgroundColor); 
+	border-color: var(--backgroundColor);
+	}
  .contentWrapper-SvZHNd{
 	background-color: var(--backgroundColor); 
 	border-color: var(--backgroundColor);
