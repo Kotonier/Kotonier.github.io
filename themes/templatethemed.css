@@ -1519,15 +1519,7 @@ background-color: transparent;
 }
 
 	
- .header-ywPcAE{
-	background-color: var(--backgroundColor); 
-	border-color: var(--backgroundColor);
-	}
- .categoryList-2Kzf65{
-	background-color: var(--backgroundColor); 
-	border-color: var(--backgroundColor);
-	}
- .contentWrapper-SvZHNd{
+.header-ywPcAE, .header-8ilj5e, .bodyWrapper-3G0FZZ, .categoryList-2Kzf65, .emojiPicker-3PwZFl, .contentWrapper-SvZHNd{
 	background-color: var(--backgroundColor); 
 	border-color: var(--backgroundColor);
 	}
