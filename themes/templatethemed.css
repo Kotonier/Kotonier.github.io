@@ -1489,7 +1489,7 @@ background-color: transparent;
 	
 	
 	
-	/*EMOJI PICKER*/
+		/*EMOJI PICKER*/
 	
 
 .contentWrapper-2txmjs, .inspector-sdLnLS, .wrapper-2N7X54, .categoryWrapper-UZ5YNj {
@@ -1517,11 +1517,6 @@ background-color: transparent;
 	border: 0.5px solid var(--uiGradient1);
 	box-shadow: 0 0 10px 0 var(--uiGradient1);
 }
-
-.emojiPicker-3PwZFl{
-	background-color: var(--backgroundColor); 
-	border-color: var(--backgroundColor);
-	}
 
 /* Emoji Picker Nitro will Expire soon */
 /*.premiumRetentionNotice-1MsjHe{background-color: var(--background-color);}*/
